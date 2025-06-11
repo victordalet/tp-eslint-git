@@ -1,8 +1,7 @@
-const x = 10;
-console.log(x);
-
-function test() {
-    console.log('test')
+function additionner(a, b) {
+  let result = a + b
+  console.log('Le résultat est', result)
+  return result
 }
 
-test()
+additionner(2, 3);
